@@ -8,7 +8,7 @@ int smallest_factor(int n){
     return 0;
 }
 
-int primes_in_range(int a, int b){
+void primes_in_range(int a, int b){
     for (;a<=b;a++){
         if (smallest_factor(a) == 0){
             std::cout << a << std::endl;
