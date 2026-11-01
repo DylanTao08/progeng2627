@@ -84,7 +84,7 @@ int main(){
 
     // we can't print the whole vector at once!
     // the following line:
-    // std::cout << v << std::endl; 
+    //std::cout << v << std::endl; 
     // would not work!
 
 }
